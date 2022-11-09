@@ -1,0 +1,31 @@
+{
+  "name": "sam-q-net-backend",
+  "version": "1.0.0",
+  "description": "sam-q-net backend in node",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "REACT",
+    "REACT",
+    "HOOK",
+    "NODE",
+    "swagger-jsdoc",
+    "swagger-ui-express",
+    "SAM-Q-NET",
+    "SAM-Q-EDIT"
+  ],
+  "author": "TSL PRODUCTS BY KALYANI PAWAR",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0"
+  }
+}
