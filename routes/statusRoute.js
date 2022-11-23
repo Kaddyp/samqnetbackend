@@ -2,6 +2,12 @@ import express, { json } from 'express';
 import fs from 'fs';
 const router = express.Router();
 
+/**
+ * @swagger
+ * tags:
+ *   name: Status
+ *   description: The status managing API
+ */
 
 /**
  * @swagger
@@ -60,12 +66,6 @@ const router = express.Router();
  *         Serial_Number: 000001
  */
 
-/**
-  * @swagger
-  * tags:
-  *   name: Status
-  *   description: The status managing API
-  */
 
 /**
  * @swagger
@@ -84,9 +84,10 @@ const router = express.Router();
  *                 $ref: '#/components/schemas/Status'
  */
 
-
 router.get('/', (req, res)=>{
+    console.log('statuss');
     fs.readFile('./status.json', (err, result)=>{
+        console.log(result);
         const jsonObj = JSON.parse(result)[0];
         const statusObj = [{
             "Model": jsonObj["box_name"],

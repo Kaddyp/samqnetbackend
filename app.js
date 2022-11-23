@@ -8,6 +8,7 @@ import swaggerJsDoc from 'swagger-jsdoc';
 
 import config from './config.js';
 import statusRoute from './routes/statusRoute.js';
+import liveViewRoute from './routes/liveViewRoute.js';
 const __dirname = path.resolve();
 
 
@@ -49,7 +50,7 @@ app.use(cors({
 
 app.use(bodyParser.json());
 app.use(apiUrl + '/status', statusRoute);
-
+app.use(apiUrl + '/liveView', liveViewRoute);
 
 /*app.use(express.static(path.join(__dirname, 'build')));
 app.get('*', (req, res) => {
