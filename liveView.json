@@ -1,74 +1,74 @@
 [
     {
-      "mode_selection": 0,
+      "mode_selection": 1,
       "mix_selection": 0,    
-      "source_label": "Label 0",
-      "gain": 100,
+      "source_label": "Dan",
+      "gain": 10,
       "balance": 2,
       "source_select": 1,
-      "meter": "20 30"
+      "meter": "80 90"
+    },
+    {
+      "mode_selection": 0,
+      "mix_selection": 1,    
+      "source_label": "Label 1",
+      "gain": 80,
+      "balance": 2,
+      "source_select": 0,
+      "meter": "75 80"
     },
     {
       "mode_selection": 0,
       "mix_selection": 0,    
-      "source_label": "Label 0",
-      "gain": 100,
+      "source_label": "Label 2",
+      "gain": 50,
       "balance": 2,
       "source_select": 1,
-      "meter": "20 30"
+      "meter": "85 90"
     },
     {
       "mode_selection": 0,
       "mix_selection": 0,    
-      "source_label": "Label 0",
+      "source_label": "Label 3",
       "gain": 100,
       "balance": 2,
       "source_select": 1,
-      "meter": "20 30"
+      "meter": "60 90"
     },
     {
       "mode_selection": 0,
       "mix_selection": 0,    
-      "source_label": "Label 0",
-      "gain": 100,
+      "source_label": "Label 4",
+      "gain": 50,
       "balance": 2,
       "source_select": 1,
-      "meter": "20 30"
+      "meter": "84 85"
     },
     {
       "mode_selection": 0,
       "mix_selection": 0,    
-      "source_label": "Label 0",
-      "gain": 100,
+      "source_label": "Label 5",
+      "gain": 60,
       "balance": 2,
       "source_select": 1,
-      "meter": "20 30"
+      "meter": "90 95"
     },
     {
       "mode_selection": 0,
       "mix_selection": 0,    
-      "source_label": "Label 0",
-      "gain": 100,
+      "source_label": "Label 6",
+      "gain": 70,
       "balance": 2,
       "source_select": 1,
-      "meter": "20 30"
+      "meter": "70 80"
     },
     {
       "mode_selection": 0,
       "mix_selection": 0,    
-      "source_label": "Label 0",
-      "gain": 100,
+      "source_label": "Label 7",
+      "gain": 80,
       "balance": 2,
       "source_select": 1,
-      "meter": "20 30"
-    },
-    {
-      "mode_selection": 0,
-      "mix_selection": 0,    
-      "source_label": "Label 0",
-      "gain": 100,
-      "balance": 2,
-      "source_select": 1,
-      "meter": "20 30"
+      "meter": "95 85"
     }
   ]

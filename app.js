@@ -9,6 +9,8 @@ import swaggerJsDoc from 'swagger-jsdoc';
 import config from './config.js';
 import statusRoute from './routes/statusRoute.js';
 import liveViewRoute from './routes/liveViewRoute.js';
+import phaseRoute from './routes/phaseRoute.js';
+import monitoringRoute from './routes/monitoringRoute.js';
 const __dirname = path.resolve();
 
 
@@ -51,6 +53,8 @@ app.use(cors({
 app.use(bodyParser.json());
 app.use(apiUrl + '/status', statusRoute);
 app.use(apiUrl + '/liveView', liveViewRoute);
+app.use(apiUrl + '/phaseMeter', phaseRoute);
+app.use(apiUrl + '/monitoring', monitoringRoute);
 
 /*app.use(express.static(path.join(__dirname, 'build')));
 app.get('*', (req, res) => {
